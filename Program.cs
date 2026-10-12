@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
         policy
             .WithOrigins(
                 "http://localhost:5173",
-                "https://TU-FRONTEND.pages.dev"
+                "https://miprimeraapp.rafaelink17.workers.dev"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
